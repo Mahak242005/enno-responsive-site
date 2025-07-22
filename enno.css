@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header h1{
+    margin: 15px;
+}
+header button{
+    height: 30px;
+    width: 80px;
+    border-radius: 28px;
+}
