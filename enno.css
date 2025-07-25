@@ -1,18 +1,76 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Raleway", sans-serif;
 }
 header{
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    position: relative;
 }
 header h1{
     margin: 15px;
+    color: #5f687b;
+    font-size: 30px;
+    font-weight: 700;
 }
 header button{
     height: 30px;
-    width: 80px;
+    width: 90px;
     border-radius: 28px;
+    position: absolute;
+    right: 60px;
+    border: none;
+    background-color: #10bc69;
+    color: #ffffff;
+}
+header i{
+    position: absolute;
+    right: 30px;
+}
+
+
+section {
+    height: 500px;  
+}
+section h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+section h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+section div{
+    width: 425px;
+    color: #5f687b;
+    margin-top: 210px;
+    margin-left: 100px;
+    
+}
+section button{
+    height: 45px;
+    width: 135px;
+    border-radius: 28px;
+    border: none;
+    background-color: #10bc69;
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 15px;
+    font-weight: 400;
+}
+section a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+section i{
+    position: absolute;
+    left: 10px;
 }
