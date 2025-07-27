@@ -80,10 +80,9 @@ section .image img{
     position: absolute;
     right: 90px;
     top: 200px;
-    transition: 0.2s;
-    animation: floatUpDown 3s ease-in-out infinite;
+    animation: UpDown 3s ease-in-out infinite;
 }
-@keyframes floatUpDown {
+@keyframes UpDown {
     0% {
         transform: translateY(0);
     }
@@ -113,12 +112,33 @@ section .card .card-content .lorem, .sed, .magni{
     margin-right: 30px;
     background-color: #4444440a;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-section .card .card-content .lorem i{
+section .card .card-content  i{
     position: absolute;
     font-size: 50px;
+    margin-bottom: 10px;
+    top: 40px;
+    left: 110px;
 }
-section .card .card-content .magni  i{
-    position: absolute;
-    font-size: 50px;
+section .card .card-content .lorem, .sed, .magni h3{
+    color:#5f687b;
 }
+section .card .card-content .lorem p{
+    font-size: 13px;
+}
+section .card .card-content .sed p{
+    font-size: 13px;
+}
+section .card .card-content .magni p{
+    font-size: 13px;
+}
+section .card .card-content > div{
+    transition:0.3s;
+    top:-10px;
+}
+
