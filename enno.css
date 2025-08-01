@@ -162,11 +162,7 @@ section {
     font-size: 32px;
     color: #5f687b;
 }
-.shadow{
-    opacity: 1;
-}
 .about-heading{
-    text-shadow: 2px 2px 0 #000;
     font-size: 32px;
     color: #5f687b;
 }
