@@ -166,6 +166,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .about .about-heading-wrapper{
     position: relative;
@@ -224,4 +225,11 @@ section {
 .about .about-content .about-info ul li > i{
     color: #10bc69;
     margin-right: 10px;
+}
+.about .about-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 20px;
 }
