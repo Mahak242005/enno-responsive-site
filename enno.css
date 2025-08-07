@@ -151,6 +151,15 @@ section {
     transition:0.3s;
     top:-10px;
 }
+.card .card-content > div:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card .card-content >div img{
+    color: #10bc69;
+}
+
 
 
 .about{
@@ -158,11 +167,61 @@ section {
     align-items: center;
     flex-direction: column;
 }
-.about h1{
+.about .about-heading-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.about .shadow{
+    font-size:50px;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+} 
+.about-heading{
+    position: absolute;
+    top: 30px;
+    left: 60px;
     font-size: 32px;
     color: #5f687b;
 }
-.about-heading{
-    font-size: 32px;
+.about p{
+    width: 600px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}
+.about .about-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+.about .about-content .about-info{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.about .about-content .about-info h2{
     color: #5f687b;
+    width: 522px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.about .about-content .about-image img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 10px;
+}
+.about .about-content .about-info p{
+    margin: 20px 0;
+}
+.about .about-content .about-info ul > li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.about .about-content .about-info ul li > i{
+    color: #10bc69;
+    margin-right: 10px;
 }
