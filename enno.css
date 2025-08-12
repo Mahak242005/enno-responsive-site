@@ -3,6 +3,9 @@
     padding: 0;
     font-family: "Raleway", sans-serif;
 }
+body{
+   overflow-x: hidden;
+}
 header{
     display: flex;
     flex-wrap: wrap;
@@ -235,14 +238,55 @@ section {
     color: #10bc69;
     margin-right: 10px;
 }
+.about .about-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 .about .about-footer ul{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    position: absolute;
-    bottom: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 30px 0;
+}
+.about .about-footer ul li span{
+    font-size: 48px;
+    display: block;
+    color: #10bc69;
+    font-weight: 700;
 }
 .about .about-footer ul li{
-    margin: 0 10px;
+    margin: 10px 50px;
     list-style: none;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin:0 50px;
+}
+.services .services-heading-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.services .services-shadow{
+    font-size:50px;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+} 
+.services-heading{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 32px;
+    color: #5f687b;
+}
+.services p{
+    margin-top: 30px;
 }
