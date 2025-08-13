@@ -290,3 +290,15 @@ section {
 .services p{
     margin-top: 30px;
 }
+.service .service-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.service .service-content .first-card{
+    width: 439px;
+    height: 430px;
+    border: 2px solid black;
+}
