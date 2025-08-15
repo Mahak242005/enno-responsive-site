@@ -265,11 +265,15 @@ section {
 }
 
 .services{
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
-    margin:0 50px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    background-color: #4444440a;
 }
 .services .services-heading-wrapper{
     position: relative;
@@ -290,15 +294,28 @@ section {
 .services p{
     margin-top: 30px;
 }
-.service .service-content{
+.services .services-content{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin:50px 0;
 }
-.service .service-content .first-card{
-    width: 439px;
-    height: 430px;
-    border: 2px solid black;
+.services .services-content .first-card,.second-card,.third-card, .fourth-card, .fifth-card, .sixth-card{
+    flex-shrink: 0;
+    width: 294px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px 20px;
+    background-color: #ffffff;
+}
+.services .services-content .first-card h3,.second-card h3, .third-card h3, .fourth-card h3, .fifth-card h3, .sixth-card h3{
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    color: #5f687b;
+}
+.services .services-content .first-card :hover h3{
+    color: #10bc69;
 }
