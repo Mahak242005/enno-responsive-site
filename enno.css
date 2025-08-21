@@ -305,17 +305,111 @@ section {
 .services .services-content .first-card,.second-card,.third-card, .fourth-card, .fifth-card, .sixth-card{
     flex-shrink: 0;
     width: 294px;
-    height: 300px;
-    border: 1px solid black;
+    height: 346px;
+    border: 1px solid #e0e0e0;
     margin: 20px 20px;
     background-color: #ffffff;
+    position: relative;
 }
 .services .services-content .first-card h3,.second-card h3, .third-card h3, .fourth-card h3, .fifth-card h3, .sixth-card h3{
     font-weight: 700;
-    margin: 10px 0 15px 0;
+    margin-top: 146px;
     font-size: 22px;
     color: #5f687b;
+    text-align: center;
+
 }
-.services .services-content .first-card :hover h3{
+.services i{
+    width: 57px;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    background-color: #10bc69;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}
+.services .services-content .first-card p,.second-card p, .third-card p, .fourth-card p, .fifth-card p, .sixth-card p{
+    font-size: 14px;
+    padding: 0 20px;
+    text-align: center;
+}
+.services .services-content .first-card:hover,
+.services .services-content .second-card:hover,
+.services .services-content .third-card:hover,
+.services .services-content .fourth-card:hover,
+.services .services-content .fifth-card:hover,
+.services .services-content .sixth-card:hover{
+    border: 1px solid #10bc69;
+}
+.services .services-content .first-card:hover  h3,
+.services .services-content .second-card:hover h3,
+.services .services-content .third-card:hover  h3,
+.services .services-content .fourth-card:hover h3,
+.services .services-content .fifth-card:hover  h3,
+.services .services-content .sixth-card:hover h3{
     color: #10bc69;
+}
+
+
+.portfolio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.portfolio .portfolio-heading-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.portfolio .portfolio-shadow{
+    font-size:50px;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.portfolio-heading{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 32px;
+    color: #5f687b;
+}
+.portfolio p{
+    margin: 30px 0 50px 0;
+}
+.portfolio ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.portfolio ul li{
+    margin: 15px;
+    position: relative;
+    font-weight: 600;
+}
+.portfolio ul li:hover{
+    color: #10bc69;
+    transition: color 0.4s ease;
+}
+.portfolio .product-image .product-image-wrapper img{
+    width: 300px;
+    height: 250px;
+    margin:10px;
+
+}
+.portfolio .product-image .product-image-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
